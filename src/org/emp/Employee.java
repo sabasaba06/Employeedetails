@@ -13,12 +13,16 @@ public class Employee {
 	private void empmail() {
 		System.out.println("csaba0@gmail.com");
 	}
+	public void username() {
+		System.out.println("username");
+	}
 	public static void main(String[]args) {
 		Employee d =new Employee();
 		d.empdob();
 		d.empid();
 		d.empmail();
 		d.empname();
+		d.username();
 	}
 
 }

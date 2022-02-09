@@ -13,6 +13,9 @@ public class Employee {
 	private void empmail() {
 		System.out.println("csaba0@gmail.com");
 	}
+	public void username() {
+		System.out.println("username");
+	}
 	public void password() {
 		System.out.println("Password");
 	}
@@ -22,7 +25,9 @@ public class Employee {
 		d.empid();
 		d.empmail();
 		d.empname();
+		d.username();
 		d.password();
+
 	}
 
 }

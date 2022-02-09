@@ -16,6 +16,9 @@ public class Employee {
 	public void username() {
 		System.out.println("username");
 	}
+	public void password() {
+		System.out.println("Password");
+	}
 	public static void main(String[]args) {
 		Employee d =new Employee();
 		d.empdob();
@@ -23,6 +26,8 @@ public class Employee {
 		d.empmail();
 		d.empname();
 		d.username();
+		d.password();
+
 	}
 
 }
